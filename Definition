@@ -1,1 +1,10 @@
+Le terme RFID désigne un système d'identification qui comprend une étiquette électronique (ou tag), pour mémoriser des      
+informations, et un lecteur.
+Le transfert d'information du composant électronique vers le lecteur s'effectue par radiofréquence et non par lecture optique, 
+comme c'est le cas pour le code à barres. Contrairement au code à barres (qui permet d'indentifier une famille de produits),
+l'étiquette RFID peut servir d'indentifiant unique de l'objet marqué. De plus, l'étiquette RFID peut être lue à distance; 
+plusieurs étiquettes peuvent même être lues en parallèle (attention cependant aux interférences).
+
+Une solution complète de RFID comprend les étiquettes, les lecteurs et encodeurs et l'intergiciel (middleware).
+Ce dernier permet d'intégrert le flux des données dans le système d'information de l'entreprise.
 
