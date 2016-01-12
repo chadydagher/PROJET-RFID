@@ -1,1 +1,39 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
 
+package javaapplication2;
+
+import java.io.*;
+import java.util.*;
+import javax.comm.*;
+
+public class RFIDTagRead implements Runnable, SerialPortEventListener {
+    static CommPortIdentifier portId;
+    static Enumeration portList;
+
+    InputStream inputStream;
+    SerialPort serialPort;
+    Thread readThread;
+    //Array consisting of SOH, length, command, data, BCC
+    static byte[] bytearray = {0x01, 0x02, 0x09, 0x32, 0x39};
+
+    static OutputStream outputStream;
+    static int n =0;
+
+    public static void main(String[] args) {
+    //Enumerate a list of available ports
+        portList = CommPortIdentifier.getPortIdentifiers();
+    // Identify the ports. I connected the reader with COM1
+        while (portList.hasMoreElements()) {
+            portId = (CommPortIdentifier) portList.nextElement();
+            if (portId.getPortType() == CommPortIdentifier.PORT_SERIAL) {
+                if (portId.getName().equals("COM1")) {
+        System.out.println("The port is: " + portId.getName());
+                    RFIDTagRead reader = new RFIDTagRead();
+                }
+            }
+
+        }
+    }
