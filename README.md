@@ -3,12 +3,14 @@ PROJET RFID SMB214-2016
 
  Plan du project
 
- 1- Introduction à la RFID.
+ 1- What is RFID.
 
- 2- Differentes types de RFID et classification des tags.
+ 2- How Do RFID Systems Work.
 
- 3- Fonctionnement d'un system RFID.
+ 3- The Different Types of RFID Systems.
 
- 4- Application de la technology RFID dans les smartcards "carte à puce sans cantact'.
+ 4- RFID Standards.
 
- 5- Exemple de Programmation sur une carte à puce sans contact.Simulation lecture et ecriture.
+ 5- Programming Example and Small Simulation .
+ 
+ 6- References.
