@@ -1,7 +1,9 @@
-# PROJET-RFID
-PROJET RFID SMB214-2016
+ RFID_SMB214-2016 
+Nom: DAGHER Chady Id: 10016 f
 
- Plan du project
+PROJET RFID 
+
+Le plan du project parle des points suivants:
 
  1- What is RFID.
 
